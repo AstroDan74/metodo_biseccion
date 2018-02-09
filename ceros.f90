@@ -1,5 +1,5 @@
 program ceros
-
+  real mult
   a=-4
   b=4
   n=1000
@@ -10,7 +10,8 @@ program ceros
     fi=f(xi)
     fi1=f(xi1)
     mult=fi*fi1
-    if (mult.gt.0) print*,'Hay una raíz entre',xi,'y',xi1,''
+    write(*,*) xi, xi1,fi,fi1,mult
+!    if (mult.gt.0) print*,'Hay una raíz entre',xi,'y',xi1,''
   enddo
 end
 
