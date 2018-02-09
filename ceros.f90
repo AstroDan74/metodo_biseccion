@@ -17,3 +17,4 @@ end
 function f(x)
   f= -19.*(x-.5)*(x-1.)+exp(x)-exp(-2.*x)
 end function
+!hello this is a test
