@@ -1,8 +1,8 @@
 program ceros
   real mult
-  a=-4
-  b=4
-  n=1000
+  a=-10
+  b=10
+  n=1000000
   h=(b-a)/n
   do i=0,n
     xi=a+(h*i)
